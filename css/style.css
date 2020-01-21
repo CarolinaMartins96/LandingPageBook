@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url(../font/league-spartan/);
+/*
+colors:
+yellow: #ffff00
+black: #000
+*/
+*{
+        font-family: 'League Spartan Bold', arial;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'League Spartan Bold', arial;
+    
+ 
+}
+
+
+p {
+    
+    line-height: 1.7;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'League Spartan Bold', arial;
+}
+
+h1 {
+    
+    padding-bottom: 8px;
+    font-size: 60px; 
+    color: #fff; 
+    margin-bottom: 25px;
+    font-family: 'League Spartan Bold', arial;
+    font-weight: bold;
+   
+}
+
+h2{
+    font-size: 55px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+      font-family: 'League Spartan Bold', arial;
+    font-weight: bold;
+  
+}
+
+h3 {
+    font-size: 27px;
+    color: #000;
+       font-family: 'League Spartan Bold', arial;
+    text-align: center;
+    text-decoration: underline;
+}
+/* BOOK SECTION */
+
+.purchase-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.booksection{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #000;
+    
+
+
+}
+
+.aboutbook {
+    background-color: #fff;
+}
+
+.book-presentation{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.book {
+    height: 92%;
+    border: 0px solid #000;
+}
+.book-presentation p{
+    color: #000;
+}
+
+.buybook{
+    border: 2px solid #000;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    width: 52%;
+    margin: auto;
+    color: #000;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    background: #ffff00;   
+}
+
+.buybook:hover{
+    background: #fafa86;   
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.subtitle{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.quotes-section {
+    background-color: #ffff00;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.quotes-section p{
+    text-align: center;
+    color: #000;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+     font-family: 'League Spartan Bold', arial;
+}
+
+
+.available{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+      font-family: 'League Spartan Bold', arial;
+    font-weight: bold;
+}
+
+.book-presentation-section {
+    background-color: #ffff00;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.book-presentation-section p{
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.book-presentation-section h1{
+    color: #000;
+    text-align: center;
+}
+
+.book-presentation-section img{
+
+}
+
+.sample {
+    margin-left: 230px;
+    margin-top: 25px;
+}
+
+.sample:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/*VIDEO SECTION */ 
+
+.sectionvideo{
+    background-color: #094664;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    }
+
+.video{
+    margin-top: 30px;
+
+}
+
+.citation{
+    text-align:center; 
+    font-size: 29px;
+    color: #F3FFE2;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+
+}
+
+/* AUTHOR SECTION */ 
+
+section-author{
+    padding-bottom: 50px;
+}
+
+
+.photo-author{
+
+    margin-left: 170px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.bio-author{
+    padding-top: 45px;
+    color: #184078;
+    margin-right: -0px;
+    padding-bottom: 50px;
+    text-align: left;
+
+}
+
+.about-author p {
+    color: #000;
+}
+}
+
+.icons {
+     color: #0197a3;
+    margin-left: 15px;
+}
+.icons:hover {
+color: #0197a3;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* social media*/
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+#share-buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/*FOOTER */
+
+.footer{
+    background-color: #000;
+}
+
+.logo-footer{
+    margin: auto;
+    padding-top: 7px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.suggestions{
+    color: #fff;
+    text-align: center;
+
+}
+
+.linkmail{
+    color: #fff;
+}
+
+.linkmail:hover{
+    color: #9F845D;
+}
+
+
+.feedback {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.feedback p{
+    color: #fff;
+}
+
+/*RESPONSIVE */
+
+
+@media only screen and (max-width: 768px) {
+    
+    .book {
+    width: 100%;
+    height: 75%;
+    border: 5px solid #000;
+    margin-top: 72px;
+}
+    
+    .titlebook{
+        font-size: 35px;
+    }
+
+    .bookcover {
+        margin-left: -11px;
+        max-width: 100%;
+        height: 500px;
+        margin-top: 130px;
+    }
+    .about-book {
+        margin-left: 37px;
+        max-width: 97%;
+        margin-right: -20px;
+}
+
+    .btn-download{
+  margin-left: 100px;
+  
+
+}
+    
+    
+    
+/*AUTHOR SECTION */ 
+    
+    .photo-author {
+        margin-top: 290px;
+        max-width: 100%;
+        max-height: 50%;
+        margin-left: 0px;
+    }
+
+    .bio-author {
+        padding-top: 100px;
+        color: #1C2C51;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    
+    /*FOOTER*/
+      
+    .feedback {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .logo-footer {
+        padding-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 480px)  {
+   
+    h1{
+        margin-left: 10px;
+    }
+    
+    
+    h2{
+        margin-left: 9px;
+        font-size: 33px;
+    }
+    
+     p{
+        padding-left: 26px;
+        padding-right: 20px;
+    }
+
+    
+    /*BOOK SECTION */ 
+    .sample {
+    margin-left: 70px;
+}
+    
+    .book {
+    width: 84%;
+    height: 92%;
+    border: 5px solid #000;
+    margin-left: 25px;
+}
+    .bookcover {
+        margin: auto;
+        width: 100%;
+        margin-top: 48px;
+        margin-bottom: -70px;
+        height: 100%;
+    }
+
+
+    .titlebook {
+        font-size: 29px;
+        margin-right: -100px;
+    }
+
+    .intro {
+        padding-left: 25px;
+        margin-right: -110px;
+    }
+
+    .bullets{
+        font-size: 16px;
+        margin-right: -110px;
+        line-height: 1.8;
+    }
+
+    .name-author {
+        font-weight: bold;
+        margin-right: -110px;
+    }
+
+    /*ABOUT BOOK */
+
+     .about-book {
+        display: none;
+    }
+
+    
+    /*VIDEO SECTION */
+    
+    
+     .citation {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* CALENDAR SECTION */
+    
+
+   
+    
+    
+    .bio-author {
+        padding-top: 50px;
+    }
+   
+
+    
+/* AUTHOR SECTION */
+   
+    .about-author{
+
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    
+
+    .bio-author{
+
+        margin-right: 0px;
+
+    }
+    
+    .photo-author{
+        margin: auto;
+        display: block;
+        height: 380px;
+        max-width: 100%;
+
+    }
+    .divicons {
+        margin-left: 20px;
+    }
+
+/*FOOTER */
+    .feedback {
+        margin-top: -18px;
+        padding-left: 30px;
+        padding-bottom: 22px;
+        color: #fff;
+
+    }
+    
+    .feedback p{
+        padding-top: 30px;
+    }
+    
+ .imglogo{
+        margin-right:60px;
+    }
+    .linkmail:hover{
+        color: #9F845D;
+        }
+
+    .imglogo {
+            margin-right: 0px;
+        }
+
+    }
+
+
+
